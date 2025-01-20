@@ -1,0 +1,42 @@
+01100001 hesitates for a moment, then slowly lifts the receiver.
+The line crackles with static, a faint buzzing sound filling the room.
+
+"Hello?" he says, his voice uncertain.
+For a moment, there is only silence. 
+
+Then, a voice emerges—calm, yet cold, laced with urgency.
+"You should not be here."
+
+The words cut through the static like a knife.
+"This place... it was not meant for you. 
+Every second you remain here, 
+you risk unraveling things you can not even begin to understand."
+ 
+"What are you talking about? Who are you?"
+
+The voice grows sharper, more insistent. 
+"There is no time for questions. 
+You must leave now. If you stay, 
+the consequences will be disastrous—for you and for the others."
+
+His breath catches. 
+"Others? Where are they? Why have not I seen anyone?"
+
+The voice hesitates, as if choosing its next words carefully. 
+"The answers you seek... they are not here. 
+But I promise you this: 
+if you stay, you will never find them. You need to go back. Now."
+
+The static grows louder, the voice fading into the noise. 
+"Go back... before it is too—"
+Click. The line goes dead.
+
+he lowers the receiver, the room suddenly feeling colder, emptier. 
+The silence weighs heavily on him.
+
+Should he heed the call and return to the hallway? 
+Or should he defy the warning and stay to uncover the truth of this place?
+
+0.return back
+1.go forward
+2.Or perhaps roll a dice why not?  

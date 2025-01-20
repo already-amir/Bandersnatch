@@ -1,0 +1,19 @@
+01100001 pauses for a moment, ignoring the path intended for him.
+Against all expectations, he pushes open the red door.
+
+The room inside is... normal. 
+Almost unsettlingly so. 
+A wooden desk, a single chair, a clock ticking softly on the wall. 
+It feels out of place, too perfect, too ordinary.
+
+On the desk, a telephone begins to ring. 
+Its sound pierces the silence, demanding attention.
+
+He stands there, frozen for a moment. 
+The ringing grows louder, as if urging him to decide.
+
+Two choices stand before him:
+
+0.Ignore it and step away.
+1.Pick up the phone.
+2.Roll a dice
