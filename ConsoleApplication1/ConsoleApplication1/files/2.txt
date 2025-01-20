@@ -1,19 +1,19 @@
-******************************************************
-*                                                    *
-*          The story begins here...                 *
-*                                                    *
-*     You find yourself standing at a crossroad.    *
-*     To your left, a narrow path disappears        *
-*     into a dark forest, filled with whispers.     *
-*                                                    *
-*     To your right, an open field stretches wide,  *
-*     bathed in the golden light of the sun.        *
-*                                                    *
-*     Which path will you take?                     *
-*                                                    *
-*     1. Enter the forest                           *
-*     2. Walk into the field                        *
-*                                                    *
-******************************************************
-         Type 1 or 2 to make your choice.
-******************************************************
+01100001 sits quietly, staring at the black void of the computer screen. 
+The silence in the room feels heavier with each passing second, 
+as if the screen itself is waiting.
+
+Slowly, he rises from the chair, his footsteps soft yet purposeful. 
+The room seems to watch as he walks toward the door.
+
+A simple turn of the handle, and the door creaks open, 
+revealing a long, dimly lit hallway.
+
+At the end of the hallway stand two doors.
+One is painted a deep, intense red. 
+The other, a cool, calm blue.
+
+Without hesitation, 01100001 moves toward the blue door. 
+
+0.open the blue door
+1.open the red door
+2.roll a dice

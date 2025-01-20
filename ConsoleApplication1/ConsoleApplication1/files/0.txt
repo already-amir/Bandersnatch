@@ -1,4 +1,4 @@
-This is a story of a person			
+This is a story of a person named 01100001.			
 A person like no other.  
    	                
 A person who makes choices, follows paths,     	
@@ -13,6 +13,10 @@ by your decisions, but remember:
 Every choice leads to a consequence,         	
 and every path reveals who you truly are. 
 
-Are you ready to begin? (0/1)
+Are you ready to begin?
+
+0.NO
+1.YES
+
             
 

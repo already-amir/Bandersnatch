@@ -4,62 +4,83 @@
 #include <fstream>
 #include <chrono>
 #include <string>
+#include<vector>
+#include <cstdlib> 
+#include <ctime>
 
 using namespace std;
 
+vector<int> arr(10000);
 
-void l_cout(int id) {
-
-    int t = 100;
-    while (t--) {
-        cout << "\n";
+void change_level() {
+    for (int i = 0; i < arr.size(); i++) {
+        arr[i] = i;
     }
+    arr[1] = -1;
+}
+
+
+
+
+void l_cout(int id,bool space=true) {
+
+    if (space) {
+        int t = 100;
+        while (t--) {
+            cout << "\n";
+        }
+    }
+    
     string file_name;
     string text;
     file_name = "files/" + to_string(id) + ".txt";
     ifstream file(file_name);
+    
     while (getline(file, text)) {
         cout <<"\t\t\t\t" << text <<"\t\t\t\t" << endl;
     }
+    cout << "\t\t\t\t";
 }
 
-void next(int curr) {
-    l_cout(curr);
+void level(int curr,bool space) {
+    l_cout(curr,space);
+
+    if (arr[curr] == -1) {
+        return;
+    }
+
     bool con;
     do {
         string n;
-        
-        auto startTime = chrono::steady_clock::now();
+        cin >> n;
+       
         con = false;
-
-        while (true) {
-            if (std::cin.rdbuf()->in_avail() > 0) { 
-                std::cin.ignore(); 
-                std::getline(std::cin,n ); 
-                std::cout << "b" << input << std::endl;
-                break;
-            }
-
-            auto elapsed = duration_cast<seconds>(steady_clock::now() - startTime).count();
-            if (elapsed >= 10) {
-                std::cout << "cc!" << std::endl;
-                
-            }
+        bool space = true;
+        if (n == "2" && curr!=0) {
+            space = false;
+            //roll a dice
+            n = to_string(rand() % 2) ;
+            cout << "\n\n";
+            l_cout(200000, false);
+            cout << "\n\n";
         }
 
+        
 
 
-
-
-        if (n == "1") {
-            next(2 * curr + 1);
+        if (n == "0") {
+            level(2 * curr + 1,space);
         }
-        else if (n == "2") {
-            next(2 * curr + 2);
+        else if (n == "1") {
+            level(2 * curr + 2,space);
         }
         else {
             con = true;
-            l_cout(1000);
+
+            srand((unsigned)time(0));
+            int i;
+            i = (rand() % 14)+100000;
+            l_cout(i,false);
         }
 
     } while (con);
@@ -72,9 +93,9 @@ void next(int curr) {
 int main()
 {
     std::cout << "Hello World!\n";
-    l_cout(0);
-    int n;
-    cin >> n;
-    l_cout(1000);
+    change_level();
+   
 
+    level(0,true);
+    //l_cout(1);
 }
