@@ -1,1 +1,25 @@
-enterd blue door
+He steps through the blue door, and the air changes instantly. 
+The tension from before seems to melt away, replaced by an almost unnatural calm.
+
+The hallway ahead is bright and pristine, 
+its walls a soothing shade of white that reflects the soft glow of the ceiling lights. 
+The floor beneath his feet feels smooth, like polished stone, 
+and each step echoes gently in the tranquil silence.
+
+At the far end of the hallway, a single door waits. 
+Its surface is plain, unmarked, and inviting, as if it is meant to be his destination.
+
+But as he walks forward, something catches his eye
+a second door, positioned to the left. 
+Unlike the rest of the serene surroundings, this door feels... wrong. 
+Its surface is darker, weathered, and slightly ajar. 
+Scrawled across it in bold, red letters are the words:
+
+DO NOT ENTER.
+
+The message is clear, almost shouting at him to turn away. 
+
+0.Continue to the door at the end of the hall, following the intended path.
+1.Defy the warning and step through the ominous red door.
+
+

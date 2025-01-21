@@ -1,4 +1,4 @@
-01100001 sits quietly, staring at the black void of the computer screen. 
+he sits quietly, staring at the black void of the computer screen. 
 The silence in the room feels heavier with each passing second, 
 as if the screen itself is waiting.
 
@@ -12,8 +12,7 @@ At the end of the hallway stand two doors.
 One is painted a deep, intense red. 
 The other, a cool, calm blue.
 
-Without hesitation, 01100001 moves toward the blue door. 
+Without hesitation, he moves toward the blue door. 
 
 0.open the blue door
 1.open the red door
-2.roll a dice

@@ -16,7 +16,14 @@ void change_level() {
     for (int i = 0; i < arr.size(); i++) {
         arr[i] = i;
     }
-    arr[1] = -1;
+    arr[60] = 59;
+    arr[61] = 59;
+    arr[62] = 59;
+    arr[119] = 2;
+    arr[120] = 13;
+    arr[12] = 6;
+    
+    
 }
 
 
@@ -43,9 +50,12 @@ void l_cout(int id,bool space=true) {
 }
 
 void level(int curr,bool space) {
+
+    curr = arr[curr];
+
     l_cout(curr,space);
 
-    if (arr[curr] == -1) {
+    if (curr == 1) {
         return;
     }
 

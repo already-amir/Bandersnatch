@@ -1,1 +1,17 @@
-not pick up the phone
+He stood still for a moment. 
+Taking a deep breath, he pushed aside his unease and walked toward the other door. 
+Without looking back, he stepped through.
+
+After a few steps, he reached the base of a staircase. 
+The stairs twisted upward into a faint glow, 
+while below, they disappeared into complete darkness.
+
+A soft, warm light seemed to call him upward, promising safety or ease. 
+From below came a cold, heavy silence, 
+like the air itself was waiting for something to happen.
+
+He stopped and looked at the two choices. 
+Then he went up toward the light.
+
+0.Go up toward the light.
+1.Go down into the darkness.
