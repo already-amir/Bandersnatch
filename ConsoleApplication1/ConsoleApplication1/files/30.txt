@@ -1,1 +1,5 @@
-go forward
+Who you are... is something I hope you never find out.
+But you are called 01100001. That is all you need to know.
+
+0.Who are you?
+1.Where are the others?

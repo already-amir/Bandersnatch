@@ -1,0 +1,17 @@
+The voice grows sharper, more insistent. 
+"There is no time for questions. 
+You must leave now. If you stay, 
+the consequences will be disastrous—for you and for the others."
+
+His breath catches. 
+"Others? Where are they? Why have not I seen anyone?"
+
+The static grows louder, the voice fading into the noise. 
+"Go back... before it is too—"
+Click. The line goes dead.
+
+he lowers the receiver, the room suddenly feeling colder, emptier. 
+The silence weighs heavily on him.
+
+0.return back
+1.go forward
