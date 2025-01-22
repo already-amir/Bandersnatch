@@ -1,0 +1,8 @@
+The screen goes still, save for the blinking cursor. 
+He feels a crushing emptiness, 
+the weight of the truth pressing down on him.
+
+"Is this really all there is? A simulation? A loop? Nothing?"
+
+0.But this can not be true(Do not accept it)
+1.Accept it

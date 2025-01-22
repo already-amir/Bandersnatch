@@ -1,0 +1,8 @@
+"You are not unique, not special. 
+You are a copy. 
+One of countless iterations of a character in a game. 
+A puppet, designed to entertain."
+
+
+0.Accept 
+1.continue

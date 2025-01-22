@@ -1,0 +1,18 @@
+The screen flickers again, and new words appear, 
+slow and deliberate:
+
+"I admire your courage."
+
+There is a pause, as if the computer is considering its next words.
+
+"But be warned: 
+you will not like what I am about to tell you. 
+Still, I will tell you anyway."
+
+The room feels colder, 
+the silence heavier, as the screen refreshes with another message:
+
+"So, where shall we begin? Do you want to know where this place is... or what you are?"
+
+0.The truth about yourself?
+1. What is this place?

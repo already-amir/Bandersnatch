@@ -1,0 +1,23 @@
+It is almost unbelievable. 
+How could he have known there was a hidden button behind the computer? 
+Yet, by some strange instinct or sheer luck, 
+his fingers find it, and he presses it.
+
+The screen flickers. For the first time, the keyboard responds. 
+He begins typing frantically, hitting keys, searching for answers. 
+What is this? What does it mean?
+
+Suddenly, the screen goes black, 
+a single line of text appears in the glowing green of the console:
+
+"Hello, 01100001."
+
+He freezes, staring at the words.
+
+The text continues:
+
+"So, you really want to know the story?
+ Where you are? What all of this is?"
+
+0.Yes I want to know
+1.No I do not think I would like it.

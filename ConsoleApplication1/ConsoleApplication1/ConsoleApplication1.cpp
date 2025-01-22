@@ -33,11 +33,64 @@ void change_level() {
     arr[949] = 0;
     arr[950] = 1;
 
+    arr[1892] = 1891;
+    arr[3784] = 3783;
+    arr[7568] = 7567;
+
+    arr[1894] = 1893;
+    arr[3788] = 3787;
+    arr[7576] = 7575;
+
+    arr[15151] = 15135;
+    arr[15152] = 15136;
+    
+    arr[943] = 945;
+    arr[944] = 946;
+
+    arr[30271] = 15136;
+    arr[30272] = -1;
+
+    arr[60549] = 0;
+    arr[60550] = 1;
+
+    arr[60548] = 60547;
+    
+    arr[121095] = -1;
+    arr[121096] = -2;
     
     
 }
 
 
+void clear_function() {
+    //In memory of those who sacrificed everything to make this possible.
+    cout << "clearing the story\n";
+    for (int i = 0; i <= 100030; i++) {
+        string file_name;
+        string text;
+        file_name = "files2/" + to_string(i) + ".txt";
+        ofstream  file(file_name);
+        file << "the story was deleted";
+        file.close();
+    }
+
+    string file_name;
+  
+    file_name = "files2/" + to_string(0) + ".txt";
+    ofstream  file(file_name);
+
+    string file_name2;
+    string text;
+    file_name2 = "files2/" + to_string(100031) + ".txt";
+    ifstream file2(file_name2);
+
+    while (getline(file2, text)) {
+        file<< text <<endl;
+    }
+
+
+    cout << "story deleted\n";
+}
 
 
 void l_cout(int id,bool space=true) {
@@ -67,6 +120,10 @@ void level(int curr,bool space) {
     if (curr == -1) {
         return;
     }
+    else if (curr == -2) {
+        clear_function();
+        return;
+    }
     l_cout(curr,space);
 
     if (curr == 1) {
@@ -85,7 +142,7 @@ void level(int curr,bool space) {
             //roll a dice
             n = to_string(rand() % 2) ;
             cout << "\n\n";
-            l_cout(200000, false);
+            l_cout(100020, false);
             cout << "\n\n";
         }
 
@@ -114,11 +171,12 @@ void level(int curr,bool space) {
 }
 
 
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    
     change_level();
-   
+    clear_function();
 
     level(0,true);
     

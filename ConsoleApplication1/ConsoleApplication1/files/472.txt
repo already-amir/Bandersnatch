@@ -1,0 +1,16 @@
+The reply is immediate, almost as if the computer was expecting it:
+
+"Too late for that."
+
+He leans back, his breath catching as more words appear:
+
+"You should have thought about that before stepping through the one-way door."
+
+"So, where should we begin?
+Do you want to know what this place is, 
+or would you rather hear the truth about yourself?"
+
+The cursor blinks, waiting.
+
+0.The truth about yourself?
+1. What is this place?

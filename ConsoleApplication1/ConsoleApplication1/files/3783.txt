@@ -1,0 +1,10 @@
+"You have no purpose except to follow the script. 
+No value except what others decide to give you. 
+You do not live; you execute. 
+You are nothing but a function, 
+a fragment of logic meant to amuse the people watching."
+
+
+
+0.Accept 
+1.continue

@@ -1,0 +1,8 @@
+The response is immediate, cold, and unforgiving.
+
+"You? You are nothing."
+"You are a bit. A piece of code. 
+A zero and a one, looping endlessly in a world that is not even real."
+
+0.Accept 
+1.continue

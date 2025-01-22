@@ -1,0 +1,9 @@
+The screen flickers, then responds with merciless precision:
+
+"You are inside a program."
+"This world? It is a simulation. 
+Nothing more than lines of code and logical operations running in a machine you will never see. 
+Every wall you touch, every step you take, it is all an illusion. It is all a big lie."
+
+0.Accept 
+1.continue

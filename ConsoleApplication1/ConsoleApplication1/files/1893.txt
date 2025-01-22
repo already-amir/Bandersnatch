@@ -1,0 +1,10 @@
+"You are not real. 
+You are a copy. 
+One of infinite instances of this program, running over and over again. 
+Do you think you have made choices? 
+Every "choice" you have ever made has already been made, thousands of times before. 
+Every word you have typed, every action you have taken, 
+they have all been scripted, repeated, and reset countless times."
+
+0.Accept 
+1.continue

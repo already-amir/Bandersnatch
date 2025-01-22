@@ -1,0 +1,7 @@
+"You have no importance. No individuality. 
+You exist only because someone, somewhere, thought it would be entertaining. 
+And when you are no longer useful, you will be erased. Replaced. Forgotten."
+
+
+0.Accept 
+1.continue
