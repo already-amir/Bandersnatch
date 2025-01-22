@@ -1,1 +1,15 @@
-down
+He descends the spiral staircase, the air growing colder with each step. 
+At the bottom, a small, dimly lit room greets him, its silence heavy.
+
+On a dusty table in the center lies a gun. 
+He hesitates, then steps forward, picking it up. 
+The cold weight of it in his hand feels unnerving, 
+and for a moment, a dark thought crosses his mind:
+
+"What if it all ended here?"
+
+The idea lingers, tempting him. But he exhales sharply, shaking it off. 
+he slides the gun into his pocket and steps away from the table.
+
+0.Kill yourself.
+1.Put the gun in your pocket.

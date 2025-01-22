@@ -1,30 +1,12 @@
-﻿#include <iostream>
-#include <chrono>
-#include <string>  
+﻿#include <Mmsystem.h>
+#include <mciapi.h>
+#include<Windows.h>
+//these two headers are already included in the <Windows.h> header
+#pragma comment(lib, "Winmm.lib")
 using namespace std;
 
 int main() {
-    using namespace std::chrono;
 
-    std::cout << "10 secons to enter" << std::endl;
-
-    auto startTime = steady_clock::now();
-    std::string input;
-
-    while (true) {
-        if (std::cin.rdbuf()->in_avail() > 0) { // 
-            std::cin.ignore(); // 
-            std::getline(std::cin, input); // 
-            std::cout << "input enterd: " << input << std::endl;
-            break;
-        }
-        //std::cout << "ghj";
-        auto elapsed = duration_cast<seconds>(steady_clock::now() - startTime).count();
-        if (elapsed >= 1) {
-            std::cout << "not enterd!" << std::endl;
-            startTime = steady_clock::now();
-        }
-    }
-
-    return 0;
+    mciSendString("play \"sounds/music.wav\" repeat", NULL, 0, NULL);
+    //return 0;
 }

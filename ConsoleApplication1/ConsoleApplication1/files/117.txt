@@ -1,0 +1,18 @@
+Curiosity gets the better of him, and he steps through the one-way door. 
+The room beyond is dimly lit, its walls bare and unremarkable. 
+In the center, a single desk stands with an old computer resting on it, its screen glowing faintly.
+
+He approaches and sits down, his fingers brushing against the keyboard. 
+The screen shows lines of code scrolling endlessly, but it makes no sense to him.
+
+He begins pressing keys, trying to make something happen. 
+Nothing changes. The screen flickers slightly but remains unresponsive. 
+He frowns, leaning closer, frustration growing with every failed attempt.
+
+Unknown to him, hidden behind the computer, is a small button. 
+A button that would enable the keyboard and give him control. 
+But he doesn’t see it. He doesn’t know it’s there.
+
+
+0.Press the hidden button
+1.You have not found the button

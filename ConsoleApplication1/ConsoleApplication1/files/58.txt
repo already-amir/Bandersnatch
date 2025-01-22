@@ -1,0 +1,17 @@
+He turns his head and notices another door, one he had not seen before. 
+Faded letters are etched across its surface:
+
+"ONE-WAY DOOR."
+
+He frowns, the words tugging at his thoughts. 
+"A one-way door? What does that even mean?"
+
+The door stands silently, its meaning unclear but unsettling. 
+He reaches out, his hand hovering over the handle, but something holds him back. 
+Whatever lies behind the one-way door, it can wait.
+
+After a moment, he steps away. Turning back toward the staircase, 
+he decides to retrace his steps, climbing slowly upward.
+
+0.Enter the ONE-WAY DOOR
+1.Turn back toward the staircase

@@ -1,0 +1,16 @@
+Hours pass, and the room remains silent. 
+The door he came through is gone, leaving no way forward or back. 
+The computer glows faintly, unresponsive, a constant reminder of his helplessness.
+
+He pulls the gun from his pocket, turning it over in his hands. 
+The weight feels familiar now, almost comforting. 
+With no hope and no answers, a thought crosses his mind:
+
+"What if I shoot the computer? What if that changes something?"
+
+But another, darker thought follows:
+
+"What if I shoot myself?"
+
+0.Shoot computer
+1.Shoot yourself 
