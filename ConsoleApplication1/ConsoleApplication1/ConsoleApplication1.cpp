@@ -7,6 +7,8 @@
 #include<vector>
 #include <cstdlib> 
 #include <ctime>
+#include <thread> 
+
 
 using namespace std;
 
@@ -63,9 +65,24 @@ void change_level() {
 
 
 void clear_function() {
+    string file_name;
+
+    file_name = "files/" + to_string(0) + ".txt";
+    ofstream  file(file_name);
+
+    string file_name2;
+    string text;
+    file_name2 = "files/" + to_string(100031) + ".txt";
+    ifstream file2(file_name2);
+
+    while (getline(file2, text)) {
+        file << text << endl;
+    }
+
+
     //In memory of those who sacrificed everything to make this possible.
     cout << "clearing the story\n";
-    for (int i = 0; i <= 100030; i++) {
+    for (int i = 1; i <= 100030; i++) {
         string file_name;
         string text;
         file_name = "files2/" + to_string(i) + ".txt";
@@ -74,20 +91,8 @@ void clear_function() {
         file.close();
     }
 
-    string file_name;
+    
   
-    file_name = "files2/" + to_string(0) + ".txt";
-    ofstream  file(file_name);
-
-    string file_name2;
-    string text;
-    file_name2 = "files2/" + to_string(100031) + ".txt";
-    ifstream file2(file_name2);
-
-    while (getline(file2, text)) {
-        file<< text <<endl;
-    }
-
 
     cout << "story deleted\n";
 }
@@ -108,7 +113,15 @@ void l_cout(int id,bool space=true) {
     ifstream file(file_name);
     
     while (getline(file, text)) {
-        cout <<"\t\t\t\t" << text <<"\t\t\t\t" << endl;
+
+
+        cout << "\t\t\t\t";
+        for (char c : text) {
+            cout << c;
+            cout.flush();
+            this_thread::sleep_for(std::chrono::milliseconds(25));
+        }
+        cout << "\t\t\t\t" << endl;
     }
     cout << "\t\t\t\t";
 }
@@ -137,18 +150,9 @@ void level(int curr,bool space) {
        
         con = false;
         bool space = true;
-        if (n == "2" && curr!=0) {
-            space = false;
-            //roll a dice
-            n = to_string(rand() % 2) ;
-            cout << "\n\n";
-            l_cout(100020, false);
-            cout << "\n\n";
-        }
-
         
 
-
+    
         if (n == "0") {
             level(2 * curr + 1,space);
         }
@@ -176,7 +180,7 @@ int main()
 {
     
     change_level();
-    clear_function();
+    
 
     level(0,true);
     
