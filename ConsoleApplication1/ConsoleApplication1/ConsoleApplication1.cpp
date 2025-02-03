@@ -85,7 +85,7 @@ void clear_function() {
     for (int i = 1; i <= 100030; i++) {
         string file_name;
         string text;
-        file_name = "files2/" + to_string(i) + ".txt";
+        file_name = "files/" + to_string(i) + ".txt";
         ofstream  file(file_name);
         file << "the story was deleted";
         file.close();
